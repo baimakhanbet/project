@@ -49,8 +49,6 @@ a['score'].hist(bins=50)
 q_movies = df.copy().loc[df['score'] >= 5]
 q_movies.shape
 
-bruh=['uid','title','score']
-print(df[bruh])
 
 df[df['score'] > 5]
 df.sample(frac=0.25)
